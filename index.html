@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mild Ledger - CZ OSVC Starter Pack</title>
-  <meta name="description" content="OSVC starter kit for Czech freelancers: bilingual invoice + monthly checklist, income/expense CSVs. Templates only - not tax advice. 9 EUR." />
+  <title>Mild Ledger - CZ OSVC Travel Expense Pack</title>
+  <meta name="description" content="CZ OSVC travel kit for Czech freelancers: trip log, expense CSV, mileage tracker, per-trip checklist (EN+CS). Templates only - not tax advice. 9 EUR." />
   <style>
     :root { color-scheme: light; font-family: system-ui, sans-serif; }
     body { margin: 0; background: #f6f4ef; color: #1a1a1a; }
@@ -13,18 +13,29 @@
     p { line-height: 1.5; }
     .muted { color: #555; font-size: 0.95rem; }
     .card { background: #fff; border: 1px solid #e5e0d6; border-radius: 12px; padding: 1.25rem; margin-top: 1.5rem; }
+    .card.secondary { background: #faf9f6; }
     a.button { display: inline-block; margin-top: 1rem; background: #1a1a1a; color: #fff; text-decoration: none; padding: 0.7rem 1.1rem; border-radius: 8px; }
+    .badge { display: inline-block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em; color: #555; border: 1px solid #d8d2c6; border-radius: 999px; padding: 0.15rem 0.55rem; margin-bottom: 0.5rem; }
   </style>
 </head>
 <body>
   <main>
     <h1>Mild Ledger</h1>
     <p class="muted">Simple templates for Czech freelancers (OSVC).</p>
+
     <div class="card">
+      <span class="badge">New</span>
+      <p><strong>CZ OSVC Travel Expense Pack</strong> - 9 EUR</p>
+      <p>Trip logs, travel expense CSVs, mileage tracker, and a per-trip checklist (EN + CS). For freelancers who visit clients or travel for work.</p>
+      <p class="muted">Templates only - not tax or legal advice. Personal use. Complementary to the Starter Pack.</p>
+      <p id="buy"><!-- payment link injected when ready --></p>
+      <p class="muted">Download (after purchase): <a href="https://github.com/yuoit/mild-ledger/releases/tag/pack-v2">GitHub release pack-v2</a></p>
+    </div>
+
+    <div class="card secondary">
       <p><strong>CZ OSVC Starter Pack</strong> - 9 EUR</p>
       <p>Invoice, income/expense trackers, and a monthly close checklist (EN + CS).</p>
       <p class="muted">Templates only - not tax or legal advice. Personal use.</p>
-      <p id="buy"><!-- payment link injected when ready --></p>
       <p class="muted">Download (after purchase): <a href="https://github.com/yuoit/mild-ledger/releases/tag/pack-v1">GitHub release pack-v1</a></p>
     </div>
   </main>
